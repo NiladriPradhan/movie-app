@@ -7,6 +7,7 @@ import { API_KEY } from '../api/config';
 
 const Home = () => {
 
+
   const [loading, setLaoding] = useState(false);
   const dispatch = useDispatch();
   const searchTerm = useSelector((state) => state.movie.searchTerm);
